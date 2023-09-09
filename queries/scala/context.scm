@@ -26,3 +26,7 @@
 (if_expression
   consequence: (_ (_) @context.end)
 ) @context
+
+(for_expression
+  consequence: (_ (_) @context.end)
+) @context 
