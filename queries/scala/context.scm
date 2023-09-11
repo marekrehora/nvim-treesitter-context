@@ -25,8 +25,6 @@
 
 (if_expression) @context
 
-(alternative) @context
-
 (val_definition) @context
 
 (var_definition) @context
