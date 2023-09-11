@@ -27,6 +27,10 @@
   consequence: (_ (_) @context.end)
 ) @context
 
-(for_expression
-  consequence: (_ (_) @context.end)
-) @context 
+(val_definition
+  pattern: (_ (_) @context.end)
+)
+
+(val_definition
+  pattern: (_ (_) @context.end)
+)
