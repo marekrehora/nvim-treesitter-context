@@ -27,6 +27,9 @@
   consequence: (_ (_) @context.end)
 ) @context
 
+(alternative
+  consequence: (_ (_) @context.end)
+) @context
 (val_definition) @context
 
 (var_definition) @context
