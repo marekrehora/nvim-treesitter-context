@@ -29,6 +29,5 @@
 
 (val_definition) @context
 
-(var_definition
-  pattern: (_ (_) @context.end)
-)
+(var_definition) @context
+
