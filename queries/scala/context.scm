@@ -31,6 +31,6 @@
   pattern: (_ (_) @context.end)
 )
 
-(val_definition
+(var_definition
   pattern: (_ (_) @context.end)
 )
