@@ -1,5 +1,7 @@
 
-(function_definition) @context
+(function_definition
+  body: (_ (_) @context.end)
+) @context
 
 (class_definition
   body: (_ (_) @context.end)
