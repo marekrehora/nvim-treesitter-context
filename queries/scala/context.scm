@@ -27,10 +27,6 @@
   consequence: (_ (_) @context.end)
 ) @context
 
-(else_clause
-  (block (_)) @context.end
-) @context
-
 (val_definition) @context
 
 (var_definition) @context
