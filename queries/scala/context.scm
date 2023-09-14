@@ -24,10 +24,7 @@
 ) @context
 
 (if_expression
-  consequence: (_ (_) @context.end)
-) @context
-
-(if_expression
+  consequence: (_ (_))
   alternative: (_ (_) @context.end)
 ) @context
 
