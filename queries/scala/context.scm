@@ -24,8 +24,8 @@
 ) @context
 
 (if_expression
-  consequence: (_ (_) @context.end)
-) @context
+  alternative: (_ (_) @context.end)
+) @context.alt
 
 (val_definition) @context
 
