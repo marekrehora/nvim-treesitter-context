@@ -29,14 +29,16 @@
 ) @context
 
 ; Capture else if (alternative that has an if)
-(if_expression
-  alternative: (if_expression @context.end)
-) @context.elseif
+;(if_expression
+;  alternative: (if_expression @context.end)
+;) @context.elseif
 
 ; Capture standalone else (alternative that doesn't have an if)
-(if_expression
-  alternative: (block @context.end)
-) @context.else
+;(if_expression
+;  alternative: (block @context.end)
+;) @context.else
+
+(if_expression) @if.chain
 
 (val_definition) @context
 
