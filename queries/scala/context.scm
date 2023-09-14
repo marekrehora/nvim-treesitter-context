@@ -33,6 +33,11 @@
   alternative: (if_expression @context.end)
 ) @context.elseif
 
+; Capture standalone else (alternative that doesn't have an if)
+(if_expression
+  alternative: (block @context.end)
+) @context.else
+
 (val_definition) @context
 
 (var_definition) @context
