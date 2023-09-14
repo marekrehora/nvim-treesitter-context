@@ -24,8 +24,11 @@
 ) @context
 
 (if_expression
-  alternative: (_ (_) @context.end)
-) @context.alt
+  [
+     consequence
+     alternative
+   ]: (_ (_) @context.end)
+) @context
 
 (val_definition) @context
 
