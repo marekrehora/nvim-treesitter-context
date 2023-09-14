@@ -24,9 +24,9 @@
 ) @context
 
 ; Capture if_expression
-(if_expression
-  consequence: (_ (_) @context.end)
-) @context
+;(if_expression
+;  consequence: (_ (_) @context.end)
+;) @context
 
 ; Capture else if (alternative that has an if)
 ;(if_expression
