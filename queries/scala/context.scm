@@ -24,10 +24,11 @@
 ) @context
 
 (if_expression
-  [
-     consequence
-     alternative
-   ]: (_ (_) @context.end)
+  consequence: (_ (_) @context.end)
+) @context
+
+(if_expression
+  alternative: (_ (_) @context.end)
 ) @context
 
 (val_definition) @context
