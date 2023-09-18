@@ -23,22 +23,17 @@
   arguments: (_ (_) @context.end)
 ) @context
 
-; Capture if_expression
-;(if_expression
-;  consequence: (_ (_) @context.end)
-;) @context
+) @context
 
-; Capture else if (alternative that has an if)
-;(if_expression
-;  alternative: (if_expression @context.end)
-;) @context.elseif
+; Capture the consequence part of the if_expression
+(if_expression
+  consequence: (_ (_) @context.end)
+) @context
 
-; Capture standalone else (alternative that doesn't have an if)
-;(if_expression
-;  alternative: (block @context.end)
-;) @context.else
-
-(if_expression) @if.chain
+; Capture the alternative part of the if_expression
+(if_expression
+  alternative: (_ (_) @context.end)
+) @context
 
 (val_definition) @context
 
