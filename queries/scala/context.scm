@@ -23,8 +23,6 @@
   arguments: (_ (_) @context.end)
 ) @context
 
-) @context
-
 ; Capture the consequence part of the if_expression
 (if_expression
   consequence: (_ (_) @context.end)
