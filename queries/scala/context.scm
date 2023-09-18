@@ -23,9 +23,7 @@
   arguments: (_ (_) @context.end)
 ) @context
 
-(if_expression
-  (_)(_ (_) @context.end)
-) @context
+(if_expression) @context
 
 (val_definition) @context
 
